@@ -24,4 +24,17 @@ A Java-based AI Recommendation System that uses **Apache Mahout** to suggest pro
 
 ## 📁 Project Structure
 
+---
 
+## 📦 How to Run the Project
+
+### 1️⃣ Clone the repository
+git clone https://github.com/YOUR-USERNAME/RecommendationSystem-JAVA.git
+
+Run using Maven:
+mvn clean compile exec:java -Dexec.mainClass="com.codtech.RecommenderApp"
+
+Sample Output:
+Recommendations for user 1:
+RecommendedItem[item:105, value:4.8]
+RecommendedItem[item:107, value:4.6]
